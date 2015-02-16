@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+
+
+#center { /* centers the content */
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-color: #ffffff;
+}
+
+#topbar { /* settings for the banner */
+	background-color: #ffffff /* #c02c38 */; /* sets banner background color */
+	height: 125px; /* sets height of the banner */
+	margin-top: 25px; /* sets the top margin of the banner */
+	margin-bottom: 0px; /* sets the bottom margin of the banner */
+}
+
+#topbar img { /* settings for the banner: logo */
+	height: 100px; /* sets the height of the logo image */
+}
+
+
+
+/* ---- menu style ---- */
+
+#menu { /* settings for the nav-bar: general style */
+	background-color: #666; /* sets the background color */
+	font-family: Arial; /* sets the font */
+	letter-spacing: 2px; /* set the letter spacing */
+	text-transform: uppercase; /* changes everything to uppercase */
+	padding-top: 20px; /* sets the top padding */
+	padding-right: 20px; /* sets the right padding */
+	padding-bottom: 20px; /* sets the bottom padding */
+	padding-left: 8px; /* sets the left padding */
+	position: relative; /* sets the position */
+	font-size: 20px; /* sets the font size */
+}
+
+#menu a { /* settings for the nav-bar: link style */
+	text-decoration: none;
+	border: none;
+	padding: 20px 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#menu a:hover { /* settings for the nav-bar: link hover */
+	background-color: #000000;
+}
+
+#menu ul { /* settings for the nav-bar: unordered list */
+	margin: 0;
+	padding: 0;
+}
+
+#menu li { /* settings for the nav-bar: list style */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+/* ---- end menu style ---- */
+
+
+
+
+
+
+
+
+#body1 {
+	/* border-style: solid; */
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+#body2 {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+#footer {
+	margin: 0px auto;
+	width: 850px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+
+
+#bd { width: 100%; max-width: 1124px; min-width: 600px; margin: auto; line-height: 26px; }
+h1 { font-size: 38px; line-height: 50px; }
+#content h1 { margin-bottom: 12px; }
+h3 { font-size: 25px; color: #666; padding: 20px 0px; margin-top: 20px; border-top: 1px solid #cccccc; clear: both; line-height: 30px;}
+h4 { font-size: 20px; color: #666; padding: 20px 0px; margin-top: 0px; }
+h1, h2, h3, h4 { font-family: Georgia; }
+#content { width: 66%; float: left; padding: 25px; }
+#sidebar { width: 33%; float: right; border-left: 1px dashed #cccccc; background-color: #eee; padding: 25px; }
